@@ -9,8 +9,9 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-    <!-- 自动扫描使用@Service注解的类 -->
-    <context:component-scan base-package="com.jh.*.service"></context:component-scan>
+    <!-- 自动扫描所有使用注解的类 -->
+    <context:component-scan base-package="com.tjg.*"></context:component-scan>
+<!--    <context:component-scan base-package="com.tjg.*.dao"></context:component-scan>-->
 
     <!-- 整合mybatis -->
     <!-- 引入db.properties -->
@@ -30,7 +31,7 @@
 
     <!-- 扫描mapper的接口 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.jh.*.dao"/>
+        <property name="basePackage" value="com.tjg.*.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 

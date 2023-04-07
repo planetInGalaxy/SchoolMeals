@@ -60,19 +60,21 @@
 <div class="panel panel-default" id="login">
     <div class="panel-body">
         <div id="top">
-            <h1><b>管理员登录</b></h1>
+            <h1><b>外卖系统</b></h1>
+            <h3><b>商家后台登录</b></h3>
+        <p>(测试账号:admin1  密码:123456)<p/>
         </div>
         <form class="form-horizontal" action="<%=rootPath%>/admin/login" method="post" onsubmit="return verification()">
             <div class="form-group">
-                <label for="username">username</label>
+                <label for="username">用户名</label>
                 <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
             </div>
             <div class="form-group">
-                <label for="password">password</label>
+                <label for="password">密码</label>
                 <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
             </div>
             <input type="submit" class="btn btn-primary  btn-block"
-                    value="login" />
+                    value="登录" />
         </form>
     </div>
 </div>

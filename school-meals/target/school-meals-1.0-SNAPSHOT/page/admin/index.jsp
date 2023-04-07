@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="targrt-densitydpi=dpi,minimal-ui">
-    <title>校园外卖系统</title>
+    <title>外卖系统</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -70,7 +70,7 @@
 				<a href="/admin/findCategory"
 				   class="list-group-item list-group-item-warning" target="body">
 					<h4 class="list-group-item-heading">
-						添加食物
+						添加菜品
 					</h4>
 				</a>
 			</li>

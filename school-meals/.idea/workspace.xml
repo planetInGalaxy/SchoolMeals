@@ -5,12 +5,79 @@
       <artifact name="school-meals:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/cache/AdminCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/user/cache/UserCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/school_meals_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/admin/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/dao/AdminDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Merchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/cart/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/cart/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/util/Uuid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/util/Uuid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/dao/AdminDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Merchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/util/Uuid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/util/Uuid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/body.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/login.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,10 +196,14 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,6 +294,10 @@
     <option name="width" value="1357" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="2NxXlQ76WWDQKsZ410Oyeg0518y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -310,32 +385,34 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="school-meals" />
-    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender 配置",
+    "Notification.DoNotAsk-WindowsDefender": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/code/private/Java/SchoolMeals/school-meals",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Groovy compiler",
+    "spring.configuration.checksum": "4d8192d8fa09c7f3d4b6d459a421c6fb",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\merchant_image" />
-      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page" />
-      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\WEB-INF\view\jsp" />
-      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jh.user.entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\user" />
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\test" />
@@ -343,62 +420,40 @@
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\admin" />
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\java\com\jh\mapper" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\merchant_image" />
+      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page" />
+      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\WEB-INF\view\jsp" />
+      <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jh.admin.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jh.user.entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="应用程序">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="未命名" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.54" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="外卖系统J9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.54" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre-9.0.4">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="school-meals:war exploded">
@@ -410,11 +465,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="未命名_school-meals" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="5269" />
       </RunnerSettings>
@@ -448,6 +503,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -463,13 +533,15 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="school-meals:war exploded" />
         </option>
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -506,6 +578,13 @@
       <workItem from="1550913100236" duration="14286000" />
       <workItem from="1551056204883" duration="852000" />
       <workItem from="1551062374645" duration="488000" />
+      <workItem from="1680606858647" duration="2790000" />
+      <workItem from="1680613748447" duration="293000" />
+      <workItem from="1680614060386" duration="1145000" />
+      <workItem from="1680615470419" duration="257000" />
+      <workItem from="1680615744244" duration="474000" />
+      <workItem from="1680662234049" duration="12986000" />
+      <workItem from="1680762715929" duration="13404000" />
     </task>
     <servers />
   </component>
@@ -590,18 +669,11 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="230" />
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jh/entity/Admin.java">

@@ -57,10 +57,10 @@
 <div class="panel panel-default" id="login">
     <div class="panel-body">
         <div id="top">
-            <h1><b>校园外卖系统</b></h1>
+            <h1><b>外卖系统</b></h1>
+            <h3><b>用户登录</b></h3>
+            <p>(测试账号:user1  密码:123456)<p/>
         </div>
-        <b>测试账号:zhangsan  密码:123456<b/>
-
         <form class="form-horizontal" action="/user/login" method="post" onsubmit="return verification()">
             <div class="form-group">
                 <label for="username">用户名</label>
