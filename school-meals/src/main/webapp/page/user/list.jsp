@@ -25,9 +25,10 @@
   
   <body>
 
+  <p><%=request.getContextPath() %></p>
     <c:forEach items="${list}" var="list">
         <div class="icon">
-            <a href="/user/findFoodDetail?mid=${list.mid}"><img src="${list.mimage}" border="0"/></a><br>
+            <a href="/user/findFoodDetail?mid=${list.mid}"><img src="/merchant_image/${list.mimage}" border="0"/></a><br>
         </div>
 
     </c:forEach>

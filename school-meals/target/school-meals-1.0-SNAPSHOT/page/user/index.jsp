@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>校园外卖系统</title>
+    <title>外卖系统</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -53,7 +53,7 @@
 				<a href="/user/findMerchant?cid=1"
 				   class="list-group-item list-group-item-success" target="body">
 					<h4 class="list-group-item-heading">
-						一餐厅
+						商家一
 					</h4>
 				</a>
 			</li>
@@ -61,7 +61,7 @@
 				<a href="/user/findMerchant?cid=2"
 				   class="list-group-item list-group-item-warning" target="body">
 					<h4 class="list-group-item-heading">
-						二餐厅
+						商家二
 					</h4>
 				</a>
 			</li>
@@ -69,7 +69,7 @@
 				<a href="/user/findMerchant?cid=3"
 				   class="list-group-item list-group-item-danger" target="body">
 					<h4 class="list-group-item-heading">
-						三餐厅
+						商家三
 					</h4>
 				</a>
 			</li>

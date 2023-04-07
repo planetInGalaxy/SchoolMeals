@@ -30,7 +30,7 @@
   </head>
   
   <body>
-<h1 style="text-align: center;">校园外卖系统</h1>
+<h1 style="text-align: center;">外卖系统</h1>
 <div style="font-size: 10pt;" class="top">	
 			<nav class="navbar navbar-inverse" role="navigation">
 	  			<div class="container-fluid">

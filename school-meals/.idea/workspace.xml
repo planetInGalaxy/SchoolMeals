@@ -10,73 +10,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/cache/AdminCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/user/cache/UserCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/school_meals_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/admin/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Merchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/cart/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/cart/CartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/user/util/Uuid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/user/util/Uuid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Merchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/cart/CartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/util/Uuid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/jh/user/util/Uuid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/body.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/baozi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/baozi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/bocaimian.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/bocaimian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/doufunao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/doufunao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/hongshaorou.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/hongshaorou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/huangmenji.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/huangmenji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/hulatang.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/hulatang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/jitangmian.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/jitangmian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/lazijiding.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/lazijiding.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/muerchaodan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/muerchaodan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/food_image/xiaolongbao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/food_image/xiaolongbao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/1+1营养餐.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/1+1营养餐.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/1550917320_339653.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/chaocai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/包子.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/包子.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/小笼包.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/小笼包.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/米饭.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/米饭.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/胡辣汤.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/胡辣汤.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/菠菜面2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/菠菜面2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/豆腐脑.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/豆腐脑.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/鸡汤面.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/鸡汤面.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/merchant_image/黄焖鸡.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merchant_image/黄焖鸡.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/cache/UserCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tjg/user/cache/UserCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tjg/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/cache/UserCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/cache/UserCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/baozi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/bocaimian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/doufunao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/hongshaorou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/huangmenji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/hulatang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/jitangmian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/lazijiding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/muerchaodan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/food_image/xiaolongbao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/1+1营养餐.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/1550917320_339653.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/包子.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/小笼包.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/米饭.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/胡辣汤.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/菠菜面2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/豆腐脑.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/鸡汤面.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/merchant_image/黄焖鸡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/top.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,15 +389,16 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/code/private/Java/SchoolMeals/school-meals",
+    "last_opened_file_path": "E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/merchant_image",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Groovy compiler",
+    "settings.editor.selected.configurable": "preferences.redisPlugin",
     "spring.configuration.checksum": "4d8192d8fa09c7f3d4b6d459a421c6fb",
     "vue.rearranger.settings.migration": "true"
   }
@@ -421,6 +412,7 @@
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\java\com\jh\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\private\Java\TakeoutSystem\school-meals\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\merchant_image" />
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page" />
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\WEB-INF\view\jsp" />
@@ -584,7 +576,10 @@
       <workItem from="1680615470419" duration="257000" />
       <workItem from="1680615744244" duration="474000" />
       <workItem from="1680662234049" duration="12986000" />
-      <workItem from="1680762715929" duration="13404000" />
+      <workItem from="1680762715929" duration="14641000" />
+      <workItem from="1680851552476" duration="810000" />
+      <workItem from="1680852423166" duration="7986000" />
+      <workItem from="1680872322214" duration="1796000" />
     </task>
     <servers />
   </component>
@@ -674,6 +669,9 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/takeout_system$J9.ic" NAME="外卖系统J9 覆盖结果" MODIFIED="1680852298066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jh/entity/Admin.java">

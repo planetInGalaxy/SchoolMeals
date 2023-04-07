@@ -27,7 +27,7 @@
   </head>
   
   <body>
-<h1 style="text-align: center;">校园外卖系统</h1>
+<h1 style="text-align: center;">外卖系统</h1>
 <div style="font-size: 10pt;" class="top">
 	<c:choose>
 		<c:when test="${empty sessionScope.user }">
