@@ -1,6 +1,5 @@
 package com.tjg.admin.service.impl;
 
-import com.tjg.admin.cache.AdminCache;
 import com.tjg.admin.dao.AdminDao;
 import com.tjg.admin.service.AdminService;
 import com.tjg.entity.*;
@@ -15,8 +14,6 @@ public class AdminServiceImpl implements AdminService {
     //注入service依赖
     @Autowired
     AdminDao adminDao;
-    @Autowired
-    AdminCache adminCache;
 
     /**
      * 管理员登录
@@ -34,8 +31,7 @@ public class AdminServiceImpl implements AdminService {
      */
     public List<Merchant> selectFindAllMerchant() {
         System.out.println("mmmmmmmmsssssss");
-//        return adminDao.selectFindAllMerchant();
-        return adminCache.selectFindAllMerchant();
+        return adminDao.selectFindAllMerchant();
     }
 
     /**

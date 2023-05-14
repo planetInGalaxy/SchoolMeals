@@ -29,17 +29,14 @@ public class  AdminController {
                         @RequestParam("password") String password,
                         HttpSession session, RedirectAttributes redirectAttributes) throws Exception {
 
-//        Admin admin = adminService.selectByNameAndPwd(username,password);
+        Admin admin = adminService.selectByNameAndPwd(username,password);
 
-        Admin admin = new Admin();
         //验证用户名密码失败时
-        if(admin == null || !username.equals("admin1") || !password.equals("123456")){
+        if(admin == null){
             redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
             return "redirect:/admin/login2";
         }
 
-        admin.setAname("admin1");
-        admin.setApassword("123456");
         System.out.println(admin);
 
         //放入用户实体到Session中

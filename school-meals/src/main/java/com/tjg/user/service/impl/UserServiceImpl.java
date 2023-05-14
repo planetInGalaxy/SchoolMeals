@@ -1,7 +1,6 @@
 package com.tjg.user.service.impl;
 
 import com.tjg.entity.*;
-import com.tjg.user.cache.UserCache;
 import com.tjg.user.dao.UserDao;
 import com.tjg.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,20 +13,16 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     UserDao userDao;
-    @Autowired
-    UserCache userCache;
     public User selectByNameAndPwd(String username, String password) {
         return userDao.selectByNameAndPwd(username, password);
     }
 
     public List<Merchant> findMerchant(long cid) {
-//        return userDao.findMerchant(cid);
-        return userCache.findMerchant(cid);
+        return userDao.findMerchant(cid);
     }
 
     public List<Food> findFoodDetail(long mid) {
-//        return userDao.findFoodDetail(mid);
-        return userCache.findFoodDetail(mid);
+        return userDao.findFoodDetail(mid);
     }
 
     public Food findFood(long fid) {

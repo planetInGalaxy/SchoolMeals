@@ -38,17 +38,23 @@ public class UserController {
     public String selectByNameAndPwd(@RequestParam("username") String username, @RequestParam("password") String password,
                                      HttpSession session, RedirectAttributes redirectAttributes)throws Exception{
 
-//        User user = userService.selectByNameAndPwd(username,password);
 
-        User user = new User();
-        //验证用户名密码失败时
-        if(user == null || !username.equals("user1") || !password.equals("123456")){
+
+//        User user = new User();
+//        //验证用户名密码失败时
+//        if(user == null || !username.equals("user1") || !password.equals("123456")){
+//            redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
+//            return "redirect:/user/login2";
+//        }
+//
+//        user.setUsername("user1");
+//        user.setPassword("123456");
+//
+        User user = userService.selectByNameAndPwd(username,password);
+        if(user == null){
             redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
             return "redirect:/user/login2";
         }
-
-        user.setUsername("user1");
-        user.setPassword("123456");
         System.out.println(user);
         //将用户信息放入实体中
         session.setAttribute("user",user);
