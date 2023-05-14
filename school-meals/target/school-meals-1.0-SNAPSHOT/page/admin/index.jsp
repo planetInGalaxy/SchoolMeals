@@ -42,14 +42,11 @@
 	<tr style="background: #ffffff; height: 120px;">
 		<td colspan="2" align="center">
 			<iframe frameborder="0" src="/page/admin/top.jsp" name="top"></iframe>
-
 		</td>
 	</tr>
 	<tr>
-
 		<td width="200" style="padding:5px;" align="center" valign="top" id="menu">
 		<ul class="menu">
-
 			<li >
 				<a href="/admin/findAll"
 				   class="list-group-item list-group-item-success" target="body">
@@ -58,6 +55,7 @@
 					</h4>
 				</a>
 			</li>
+
 			<li >
 				<a href="/admin/findAllCategory"
 				   class="list-group-item list-group-item-info" target="body">
@@ -66,6 +64,7 @@
 					</h4>
 				</a>
 			</li>
+
 			<li >
 				<a href="/admin/findCategory"
 				   class="list-group-item list-group-item-warning" target="body">
@@ -74,6 +73,7 @@
 					</h4>
 				</a>
 			</li>
+
 			<li>
 				<a href="/admin/findAllOrders"
 				   class="list-group-item list-group-item-danger" target="body">
@@ -87,8 +87,6 @@
 
 		<td height="730px">
 			<iframe id="menuFrame" frameborder="0" src="" name="body"></iframe>
-			
-
 		</td>
 	</tr>
 </table>

@@ -14,12 +14,12 @@
 		
 <style type="text/css">
 	body {
-		background: #ffffff; 
+		background: #F0F8FF;
 	}
 	a {
 		text-transform:none;
 		text-decoration:none;
-	} 
+	}
 	a:hover {
 		text-decoration:underline;
 	}
@@ -36,8 +36,8 @@
 	  			<div class="container-fluid">
 	   
 		    		<ul class="nav navbar-nav navbar-left">
-		    			<li><a href="#"><span class="glyphicon glyphicon-user"></span>  ${sessionScope.adminLogin.aname }</a><li>
-		      			<li><a href="/admin/logout" target="_top"><span class="glyphicon glyphicon-log-out"></span>退出</a></li>
+		    			<li><a href="#"><span class="glyphicon glyphicon-user"></span>商家管理员${sessionScope.adminLogin.aname}</a><li>
+		      			<li><a href="/admin/logout" target="_top"><span class="glyphicon glyphicon-log-out"></span>退出登录</a></li>
 		    		</ul>
 	  			</div>
 			</nav>		

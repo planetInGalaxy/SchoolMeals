@@ -30,7 +30,6 @@ public class AdminServiceImpl implements AdminService {
      * @return
      */
     public List<Merchant> selectFindAllMerchant() {
-        System.out.println("mmmmmmmmsssssss");
         return adminDao.selectFindAllMerchant();
     }
 

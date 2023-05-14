@@ -218,7 +218,9 @@ public class UserController {
         order.setPhone(phone);
         order.setAddress(address);
 
+        System.out.println("call dao");
         userService.addOrder(order);
+        System.out.println("success");
 
         //将oid传到pay方法中
         redirectAttributes.addAttribute("oid",order.getOid());
