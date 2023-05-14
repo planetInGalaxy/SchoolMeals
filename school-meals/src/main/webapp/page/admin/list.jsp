@@ -53,7 +53,10 @@
 
     <c:forEach items="${list}" var="list">
         <div class="icon">
-            <a href="/admin/findFoodDetail?mid=${list.mid}"><img src="${list.mimage}" border="0"/></a><br>
+            <a href="/admin/findFoodDetail?mid=${list.mid}">
+                <img src="/merchant_image/${list.mimage}" border="0"/>
+            </a>
+            <br>
             <button type="button" class="btn btn-danger" onclick="deleteMerchant(${list.mid})">删除</button>
         </div>
 

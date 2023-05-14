@@ -25,7 +25,11 @@
 
             <c:forEach items="${sessionScope.cart.cartItems }" var="cartItem">
                 <tr>
-                    <td><div><img src="<c:url value='/${cartItem.food.fimage }'/>"/></div></td>
+                    <td>
+                        <div>
+                            <img src="<c:url value="/food_image/${cartItem.food.fimage}"/>"/>
+                        </div>
+                    </td>
                     <td>${cartItem.food.fname }</td>
                     <td>${cartItem.food.price }元</td>
                     <td>${cartItem.count }</td>

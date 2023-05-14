@@ -32,8 +32,7 @@
                 <img src="/merchant_image/${list.mimage}" border="0"/>
                 点击进入商家
             </a>
-            <br><br><br><br><br><br>
-            <p>${list.mname}+${list.mimage}</p>
+            <br>
         </div>
 
     </c:forEach>

@@ -11,18 +11,18 @@
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/admin/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tjg/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/foodDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/foodDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/admin/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/admin/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/foodDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/foodDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/foodDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/foodDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/foodDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/foodDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,35 +338,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender 配置&quot;,
-    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/merchant_image&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4d8192d8fa09c7f3d4b6d459a421c6fb&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender 配置",
+    "Notification.DoNotAsk-WindowsDefender": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/food_image",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "4d8192d8fa09c7f3d4b6d459a421c6fb",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\school-meals\src\main\webapp\page\user" />
@@ -417,6 +417,16 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <file path="$PROJECT_DIR$/src/main/resources/merchant_image">
+          <settings>
+            <option name="CONTEXT_PATH" value="/merchant_image" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/src/main/resources/food_image">
+          <settings>
+            <option name="CONTEXT_PATH" value="/food_image" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="未命名_school-meals" />

@@ -23,14 +23,15 @@
     <tbody>
         <c:forEach items="${list2}" var="list">
             <tr>
-                <td><image src="${list.fimage}"></image></td>
+                <td><image src="/food_image/${list.fimage}"></image></td>
                 <td>${list.fname}</td>
                 <td>${list.price}</td>
-
-                <td><button type="button" class="btn btn-info btn-lg"
-                    onclick="javascript:window.location.href='/user/addCart?fid=${list.fid}'" >添加到购物车</button></td>
+                <td>
+                    <button type="button" class="btn btn-info btn-lg"
+                    onclick="javascript:window.location.href='/user/addCart?fid=${list.fid}'" >添加到购物车
+                    </button>
+                </td>
             </tr>
-
         </c:forEach>
 
     </tbody>

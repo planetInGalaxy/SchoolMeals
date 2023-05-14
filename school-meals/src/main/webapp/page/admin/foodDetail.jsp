@@ -43,7 +43,9 @@
     <tbody>
         <c:forEach items="${list5}" var="list">
             <tr class="success">
-                <td><image src="${list.fimage}"></image></td>
+                <td>
+                    <image src="/food_image/${list.fimage}"></image>
+                </td>
                 <td>${list.fname}</td>
                 <td>${list.price}</td>
                 <td><button type="button" class="btn btn-danger"
