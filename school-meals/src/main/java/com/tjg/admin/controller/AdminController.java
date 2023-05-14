@@ -28,9 +28,9 @@ public class  AdminController {
     public String login(@RequestParam("username") String username,
                         @RequestParam("password") String password,
                         HttpSession session, RedirectAttributes redirectAttributes) throws Exception {
+        System.out.println("login");
 
         Admin admin = adminService.selectByNameAndPwd(username,password);
-
         //验证用户名密码失败时
         if(admin == null){
             redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
@@ -52,6 +52,8 @@ public class  AdminController {
      */
     @RequestMapping(value = "login2")
     public String redirect()throws Exception{
+        System.out.println("login2");
+
         return "admin/login";
     }
 
@@ -63,6 +65,8 @@ public class  AdminController {
      */
     @RequestMapping(value = "logout")
     public String logout(HttpSession session)throws Exception{
+        System.out.println("logout");
+
         session.invalidate();
         return "admin/login";
     }
@@ -75,7 +79,8 @@ public class  AdminController {
      */
     @RequestMapping(value = "findAll")
     public String selectFindAllMerchant(HttpSession session) throws Exception{
-        System.out.println("ssssssmmmmm");
+        System.out.println("findAll-selectFindAllMerchant");
+
         List<Merchant> list = adminService.selectFindAllMerchant();
         session.setAttribute("list",list);
         return "admin/list";
@@ -89,6 +94,7 @@ public class  AdminController {
      */
     @RequestMapping(value = "findAllCategory")
     public String findAllCategory(HttpSession session)throws Exception{
+        System.out.println("findAllCategory");
 
         List<Category> list1 = adminService.findAllCategory();
         session.setAttribute("list1",list1);
@@ -105,11 +111,11 @@ public class  AdminController {
                               RedirectAttributes redirectAttributes,
                               @RequestParam("file") CommonsMultipartFile file,
                               HttpServletRequest request)throws Exception{
+        System.out.println("addMerchant");
 
         Merchant mer = new Merchant();
-
         String fileName = file.getOriginalFilename();
-        String path = "C:\\Users\\Administrator\\Desktop\\school-meals\\src\\main\\webapp\\page\\merchant_image\\";
+        String path = "E:\\code\\private\\Java\\TakeoutSystem\\school-meals\\src\\main\\resources\\merchant_image\\";
 //        String path = "\\user\\tomcat\\webapps\\meal\\page\\merchant_image\\";
         File newFile=new File(path);
 
@@ -146,6 +152,8 @@ public class  AdminController {
      */
     @RequestMapping(value = "findAllOrders")
     public String findAllOrders(HttpSession session)throws Exception{
+        System.out.println("findAllOrders");
+
         List<Orders> list2 = adminService.findAllOrders();
         session.setAttribute("list2",list2);
 
@@ -159,6 +167,8 @@ public class  AdminController {
      */
     @RequestMapping(value = "findOrders")
     public String findOrders(@RequestParam("oid") long oid, HttpSession session)throws Exception{
+        System.out.println("findOrders");
+
         Orders order = adminService.findOrder(oid);
         session.setAttribute("order",order);
 
@@ -176,6 +186,7 @@ public class  AdminController {
      */
     @RequestMapping(value = "findCategory")
     public String findCategory(HttpSession session)throws Exception{
+        System.out.println("findCategory");
 
         List<Category> list3 = adminService.findAllCategory();
         session.setAttribute("list3",list3);
@@ -191,8 +202,9 @@ public class  AdminController {
     @ResponseBody
     @RequestMapping(value = "findMerchant",method = RequestMethod.POST)
     public List<Merchant> selectFindMerchant(@RequestParam("cid") long cid)throws Exception{
-        List<Merchant> list4 = adminService.selectFindMerchant(cid);
+        System.out.println("findMerchant");
 
+        List<Merchant> list4 = adminService.selectFindMerchant(cid);
         return list4;
     }
 
@@ -209,10 +221,11 @@ public class  AdminController {
     public String addFood(Food food, RedirectAttributes redirectAttributes,
                           @RequestParam("file") CommonsMultipartFile file,
                           HttpServletRequest request)throws Exception{
+        System.out.println("addFood");
 
         Food f = new Food();
         String fileName = file.getOriginalFilename();
-        String path = "C:\\Users\\Administrator\\Desktop\\school-meals\\src\\main\\webapp\\page\\food_image\\";
+        String path = "E:\\code\\private\\Java\\TakeoutSystem\\school-meals\\src\\main\\resources\\food_image\\";
 //        String path = "\\user\\tomcat\\webapps\\meal\\page\\food_image\\";
         File newFile=new File(path);
 
@@ -253,6 +266,7 @@ public class  AdminController {
     @RequestMapping(value = "findFoodDetail")
     public String findFoodDetail(@RequestParam("mid") long mid,
                                  HttpSession session)throws Exception{
+        System.out.println("findFoodDetail");
 
         List<Food> list5 = adminService.findFoodDetail(mid);
         session.setAttribute("list5",list5);
@@ -271,6 +285,7 @@ public class  AdminController {
     @RequestMapping(value = "deleteMerchant",method = RequestMethod.POST)
     public JSONObject deleteMerchant(@RequestParam("mid") long mid,
                                      RedirectAttributes redirectAttributes)throws Exception{
+        System.out.println("deleteMerchant");
 
         JSONObject j = new JSONObject();
         int i = adminService.deleteMerchant(mid);
@@ -293,6 +308,7 @@ public class  AdminController {
     @RequestMapping(value = "deleteFood",method = RequestMethod.POST)
     public JSONObject deleteFood(@RequestParam("fid") long fid,
                                      RedirectAttributes redirectAttributes)throws Exception{
+        System.out.println("deleteFood");
 
         JSONObject s = new JSONObject();
         int i = adminService.deleteFood(fid);

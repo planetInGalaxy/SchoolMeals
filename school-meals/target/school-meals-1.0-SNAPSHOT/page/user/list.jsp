@@ -28,7 +28,12 @@
   <p><%=request.getContextPath() %></p>
     <c:forEach items="${list}" var="list">
         <div class="icon">
-            <a href="/user/findFoodDetail?mid=${list.mid}"><img src="/merchant_image/${list.mimage}" border="0"/></a><br>
+            <a href="/user/findFoodDetail?mid=${list.mid}">
+                <img src="/merchant_image/${list.mimage}" border="0"/>
+                点击进入商家
+            </a>
+            <br><br><br><br><br><br>
+            <p>${list.mname}+${list.mimage}</p>
         </div>
 
     </c:forEach>

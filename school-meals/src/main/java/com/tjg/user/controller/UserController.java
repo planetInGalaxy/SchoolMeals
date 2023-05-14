@@ -37,19 +37,8 @@ public class UserController {
     @RequestMapping(value = "login",method = RequestMethod.POST)
     public String selectByNameAndPwd(@RequestParam("username") String username, @RequestParam("password") String password,
                                      HttpSession session, RedirectAttributes redirectAttributes)throws Exception{
+        System.out.println("login");
 
-
-
-//        User user = new User();
-//        //验证用户名密码失败时
-//        if(user == null || !username.equals("user1") || !password.equals("123456")){
-//            redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
-//            return "redirect:/user/login2";
-//        }
-//
-//        user.setUsername("user1");
-//        user.setPassword("123456");
-//
         User user = userService.selectByNameAndPwd(username,password);
         if(user == null){
             redirectAttributes.addFlashAttribute("errMsg","用户名或密码错误");
@@ -64,6 +53,7 @@ public class UserController {
 
     @RequestMapping(value = "login2")
     public String redirect(){
+        System.out.println("login2");
 
         return "user/login";
     }
@@ -76,6 +66,8 @@ public class UserController {
      */
     @RequestMapping(value = "logout")
     public String logout(HttpSession session)throws Exception{
+        System.out.println("logout");
+
         //销毁session
         session.invalidate();
         return "user/login";
@@ -89,6 +81,7 @@ public class UserController {
      */
     @RequestMapping(value = "findMerchant")
     public String findMerchant(@RequestParam("cid") long cid,HttpSession session){
+        System.out.println("findMerchant");
 
         List<Merchant> list =  userService.findMerchant(cid);
         session.setAttribute("list",list);
@@ -104,6 +97,7 @@ public class UserController {
     @RequestMapping(value = "findFoodDetail")
     public String findFoodDetail(@RequestParam("mid") long mid,
                                   HttpSession session)throws Exception{
+        System.out.println("findFoodDetail");
 
         List<Food> list2 = userService.findFoodDetail(mid);
         session.setAttribute("list2",list2);
@@ -120,6 +114,7 @@ public class UserController {
     @RequestMapping(value = "addCart")
     public String addCart(HttpServletRequest request,
                           @RequestParam("fid") long fid)throws Exception{
+        System.out.println("addCart");
         int count = 1;
         Cart cart = (Cart)request.getSession().getAttribute("cart");
         if(cart == null){
@@ -146,6 +141,7 @@ public class UserController {
      */
     @RequestMapping(value = "delete")
     public String delete(long fid,HttpServletRequest request)throws Exception{
+        System.out.println("delete");
 
         Cart cart = (Cart)request.getSession().getAttribute("cart");
         cart.delete(fid);
@@ -161,6 +157,8 @@ public class UserController {
      */
     @RequestMapping(value = "deleteAll")
     public String deleteAll(HttpServletRequest request)throws Exception{
+        System.out.println("deleteAll");
+
         Cart cart = (Cart)request.getSession().getAttribute("cart");
         cart.clear();
         return "user/cart";
@@ -175,6 +173,8 @@ public class UserController {
      */
     @RequestMapping(value = "judge")
     public String judge(HttpSession session,HttpServletRequest request)throws Exception{
+        System.out.println("judge");
+
         //从session中获取用户账户余额
         User user = (User)session.getAttribute("user");
         float balance = user.getBalance();
@@ -202,7 +202,7 @@ public class UserController {
     @RequestMapping(value = "addOrder")
     public String addOrder(HttpServletRequest request,@RequestParam("phone") String phone,
                        @RequestParam("address") String address,RedirectAttributes redirectAttributes)throws Exception{
-
+        System.out.println("addOrder");
         //session获取购物车
         Cart cart = (Cart)request.getSession().getAttribute("cart");
         //创建订单对象并设置属性
@@ -252,6 +252,7 @@ public class UserController {
     @RequestMapping(value = "pay")
     public String pay(@RequestParam("oid") long oid,HttpServletRequest request,HttpSession session,
                       RedirectAttributes redirectAttributes)throws Exception{
+        System.out.println("pay");
         Orders order = userService.findOrder(oid);
         //获取订单总金额
         float total = order.getTotal();
@@ -276,7 +277,7 @@ public class UserController {
      */
     @RequestMapping(value = "findOrders")
     public String findOrders(@RequestParam("uid") long uid,HttpSession session)throws Exception{
-
+        System.out.println("findOrders");
         List<Orders> listOrders = userService.findOrders(uid);
         session.setAttribute("listOrders",listOrders);
         return "user/orders";
@@ -291,7 +292,7 @@ public class UserController {
      */
     @RequestMapping(value = "over")
     public String over(@RequestParam("oid") long oid,HttpSession session)throws Exception{
-
+        System.out.println("over");
         int a = userService.over(oid);
         if(a <= 0){
             return "user/payFail";
@@ -307,6 +308,7 @@ public class UserController {
      */
     @RequestMapping(value = "over2")
     public String over2(HttpSession session)throws Exception{
+        System.out.println("over2");
 
         User user = (User)session.getAttribute("user");
         long uid = user.getUid();
@@ -324,6 +326,8 @@ public class UserController {
      */
     @RequestMapping(value = "orderDetail")
     public String orderDetail(@RequestParam("oid") long oid,HttpSession session)throws Exception{
+        System.out.println("orderDetail");
+
         //查找订单并放入sesison中
         Orders order = userService.findOrder(oid);
         session.setAttribute("order",order);
