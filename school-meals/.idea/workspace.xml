@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +336,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "advance",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/merchant_image",
     "node.js.detected.package.eslint": "true",
@@ -349,7 +347,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.query.execution",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "4d8192d8fa09c7f3d4b6d459a421c6fb",
     "vue.rearranger.settings.migration": "true"
   },
@@ -554,6 +552,8 @@
       <workItem from="1684119726712" duration="231000" />
       <workItem from="1684119967595" duration="70000" />
       <workItem from="1684120052250" duration="2889000" />
+      <workItem from="1684138909383" duration="101000" />
+      <workItem from="1684139020477" duration="75000" />
     </task>
     <servers />
   </component>
