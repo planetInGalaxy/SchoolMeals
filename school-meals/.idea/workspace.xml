@@ -10,155 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/config/PropUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka-producer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/admin/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/admin/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/admin/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/Merchant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/cache/UserCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/cart/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/cart/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tjg/user/util/Uuid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/food_image/chaohefen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/food_image/danchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/food_image/huoguo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/food_image/xiarenchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/food_image/youyuchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/merchant_image/chaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/merchant_image/chuancai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/merchant_image/huangmengji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/merchant_image/shaokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/merchant_image/xiaolongbao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/admin/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/Merchant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/cache/UserCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/cart/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/cart/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/com/tjg/user/util/Uuid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/food_image/chaohefen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/food_image/danchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/food_image/huoguo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/food_image/xiarenchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/food_image/youyuchaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/mapper/AdminDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/merchant_image/chaofan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/merchant_image/chuancai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/merchant_image/huangmengji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/merchant_image/shaokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/merchant_image/xiaolongbao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/ehcache-core-2.6.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jedis-4.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/json-20220320.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/mail-1.5.0-b01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/mybatis-ehcache-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-3.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/body.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/food.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/foodDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/orderItem.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/orders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/admin/top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/foodDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/orderItem.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/orders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/payFail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/paySuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school-meals-1.0-SNAPSHOT/page/user/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,6 +219,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -474,36 +336,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender 配置",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "advance",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/merchant_image",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2884882",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "4d8192d8fa09c7f3d4b6d459a421c6fb",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender 配置&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;advance&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/private/Java/TakeoutSystem/school-meals/src/main/resources/merchant_image&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2884882&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4d8192d8fa09c7f3d4b6d459a421c6fb&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\private\Java\TakeoutSystem\school-meals\src\main\resources\merchant_image" />
@@ -700,6 +562,7 @@
       <workItem from="1684120052250" duration="2889000" />
       <workItem from="1684138909383" duration="101000" />
       <workItem from="1684139020477" duration="75000" />
+      <workItem from="1684142111074" duration="1489000" />
     </task>
     <servers />
   </component>
