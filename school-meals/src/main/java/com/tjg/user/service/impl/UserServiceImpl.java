@@ -1,6 +1,7 @@
 package com.tjg.user.service.impl;
 
 import com.tjg.entity.*;
+import com.tjg.user.cache.UserCache;
 import com.tjg.user.dao.UserDao;
 import com.tjg.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,11 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     UserDao userDao;
+    @Autowired
+    UserCache userCache;
     public User selectByNameAndPwd(String username, String password) {
+        // tested OK
+        userCache.selectByNameAndPwd(username, password);
         return userDao.selectByNameAndPwd(username, password);
     }
 
