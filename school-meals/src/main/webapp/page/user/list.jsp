@@ -30,7 +30,7 @@
         <div class="icon">
             <a href="/user/findFoodDetail?mid=${list.mid}">
                 <img src="/merchant_image/${list.mimage}" border="0"/>
-                点击进入商家
+                <p>${list.mname}<br>点击进入商家</p>
             </a>
             <br>
         </div>

@@ -53,7 +53,7 @@
 				<a href="/user/findMerchant?cid=1"
 				   class="list-group-item list-group-item-success" target="body">
 					<h4 class="list-group-item-heading">
-						食堂一
+						中心食堂
 					</h4>
 				</a>
 			</li>
@@ -61,7 +61,7 @@
 				<a href="/user/findMerchant?cid=2"
 				   class="list-group-item list-group-item-warning" target="body">
 					<h4 class="list-group-item-heading">
-						食堂二
+						五食堂
 					</h4>
 				</a>
 			</li>
@@ -69,7 +69,7 @@
 				<a href="/user/findMerchant?cid=3"
 				   class="list-group-item list-group-item-danger" target="body">
 					<h4 class="list-group-item-heading">
-						食堂三
+						沁园餐厅
 					</h4>
 				</a>
 			</li>
