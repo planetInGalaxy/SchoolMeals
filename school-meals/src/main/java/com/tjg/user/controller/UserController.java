@@ -1,5 +1,6 @@
 package com.tjg.user.controller;
 
+import com.tjg.user.cache.UserCache;
 import com.tjg.user.cart.Cart;
 import com.tjg.entity.*;
 import com.tjg.user.cart.CartItem;
@@ -24,7 +25,8 @@ public class UserController {
 
     @Autowired
     UserService userService;
-
+    @Autowired
+    UserCache userCache;
     /**
      * 用户登录
      * @param username
@@ -205,6 +207,17 @@ public class UserController {
         System.out.println("addOrder");
         //session获取购物车
         Cart cart = (Cart)request.getSession().getAttribute("cart");
+
+//        //循环遍历cart，查缓存中的库存量
+//        for(CartItem cartItem : cart.getCartItems()){
+//            userCache.checkInventory(cartItem.getFood().getFid());
+//        }
+
+        addOrder2(cart, (User)request.getSession().getAttribute("user"), phone, address);
+        return "user/submitOrder";
+    }
+
+    boolean addOrder2(Cart cart, User user, String phone, String address){
         //创建订单对象并设置属性
         Orders order = new Orders();
         //随机创建5位数字串
@@ -213,17 +226,11 @@ public class UserController {
         order.setOrdertime(d);
         order.setState(1);//收货状态   1：未付款 2：未收货 3：已收货
         order.setTotal((float)cart.getTotal());
-        User user = (User)request.getSession().getAttribute("user");
         order.setUid(user.getUid());
         order.setPhone(phone);
         order.setAddress(address);
 
-        System.out.println("call dao");
         userService.addOrder(order);
-        System.out.println("success");
-
-        //将oid传到pay方法中
-        redirectAttributes.addAttribute("oid",order.getOid());
 
         //循环遍历cart,用orderItem替换cartItem
         for(CartItem cartItem : cart.getCartItems()){
@@ -232,41 +239,20 @@ public class UserController {
             orderItem.setFid(cartItem.getFood().getFid());
             orderItem.setSubtotal((float)cartItem.getSubtotal());
             orderItem.setOid(order.getOid());
-
             userService.addOrderItem(orderItem);
-
         }
         //清空购物车
         cart.clear();
 
-        return "redirect:/user/pay";
-    }
-
-    /**
-     * 支付功能
-     * @param oid
-     * @param request
-     * @param session
-     * @param redirectAttributes
-     * @return
-     * @throws Exception
-     */
-    @RequestMapping(value = "pay")
-    public String pay(@RequestParam("oid") long oid,HttpServletRequest request,HttpSession session,
-                      RedirectAttributes redirectAttributes)throws Exception{
+        // 支付
         System.out.println("pay");
-        Orders order = userService.findOrder(oid);
         //获取订单总金额
         float total = order.getTotal();
-        //获取session中的用户id
-        User user = (User)session.getAttribute("user");
+        //获取用户id
         long uid = user.getUid();
-        request.setAttribute("order",order);
-        int a = userService.pay(total,uid);
-        if(a <= 0){
-            return "user/payFail";
-        }
-        return "user/paySuccess";
+        int balance = userService.pay(total,uid);
+        System.out.println(balance);
+        return true;
     }
 
 

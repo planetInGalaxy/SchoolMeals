@@ -19,54 +19,7 @@ public class UserCache {
         return null;
     }
 
-    public List<Merchant> findMerchant(long cid) {
-        List<Merchant> list = new ArrayList<>();
-        return list;
-    }
-
-
-    public List<Food> findFoodDetail(long mid) {
-        List<Food> list = new ArrayList<>();
-        return list;
-    }
-
-
-    public Food findFood(long fid) {
-        return null;
-    }
-
-
-    public int addOrder(Orders order) {
-        return 0;
-    }
-
-
-    public int addOrderItem(OrderItem orderItem) {
-        return 0;
-    }
-
-
-    public Orders findOrder(long oid) {
-        return null;
-    }
-
-
-    public int pay(float total, long uid) {
-        return 0;
-    }
-
-
-    public List<Orders> findOrders(long uid) {
-        return null;
-    }
-
-
-    public int over(long oid) {
-        return 0;
-    }
-
-
-    public List<OrderItem> orderDetail(long oid) {
-        return null;
+    public int checkInventory(long fid) {
+        return Integer.parseInt(jedis.get(String.valueOf(fid)));
     }
 }

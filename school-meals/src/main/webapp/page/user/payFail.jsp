@@ -7,7 +7,7 @@
     </script>
 </head>
 <body>
-    <h1>遇到未知错误</h1>
-    <h2>${sessionScope.msg}</h2>
+<h1>遇到未知错误</h1>
+<h2>${sessionScope.msg}</h2>
 </body>
 </html>

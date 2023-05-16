@@ -16,16 +16,16 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     UserDao userDao;
-    @Autowired
-    UserCache userCache;
-    @Autowired
-    KafkaMessageSender kafkaMessageSender;
+//    @Autowired
+//    UserCache userCache;
+//    @Autowired
+//    KafkaMessageSender kafkaMessageSender;
     public User selectByNameAndPwd(String username, String password) {
-        // tested OK
-        userCache.selectByNameAndPwd(username, password);
-        // testing
-        ProducerRecord<String, String> record =  new ProducerRecord<>("takeout", "hi");
-        kafkaMessageSender.sendMessage(record);
+//        // tested OK
+//        userCache.selectByNameAndPwd(username, password);
+//        // tested OK
+//        ProducerRecord<String, String> record =  new ProducerRecord<>("takeout", "hi");
+//        kafkaMessageSender.sendMessage(record);
         return userDao.selectByNameAndPwd(username, password);
     }
 
