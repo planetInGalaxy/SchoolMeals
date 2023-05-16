@@ -248,6 +248,7 @@
       <version>4.3.0</version>
     </dependency>
 
+<!--    kafka客户端-->
     <dependency>
       <groupId>org.springframework.kafka</groupId>
       <artifactId>spring-kafka</artifactId>

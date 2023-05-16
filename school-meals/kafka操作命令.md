@@ -1,3 +1,4 @@
+- cd D:\kafka_2.13-3.4.0\bin\windows
 - .\zookeeper-server-start.bat ..\..\config\zookeeper.properties
 - .\kafka-server-start.bat ..\..\config\server.properties
 - .\kafka-topics.bat --list --bootstrap-server localhost:9092

@@ -1,10 +1,10 @@
 package com.tjg.user.service.impl;
 
 import com.tjg.entity.*;
+import com.tjg.kafka.KafkaMessageSender;
 import com.tjg.user.cache.UserCache;
 import com.tjg.user.dao.UserDao;
 import com.tjg.user.service.UserService;
-import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,11 +19,13 @@ public class UserServiceImpl implements UserService {
     @Autowired
     UserCache userCache;
     @Autowired
-    private KafkaProducer kafkaProducer;
+    KafkaMessageSender kafkaMessageSender;
     public User selectByNameAndPwd(String username, String password) {
         // tested OK
         userCache.selectByNameAndPwd(username, password);
-        kafkaProducer.send(new ProducerRecord<>("takeout", "hi"));
+        // testing
+        ProducerRecord<String, String> record =  new ProducerRecord<>("takeout", "hi");
+        kafkaMessageSender.sendMessage(record);
         return userDao.selectByNameAndPwd(username, password);
     }
 

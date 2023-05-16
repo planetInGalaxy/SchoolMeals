@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/config/PropUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka-producer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka-consumer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka操作命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/kafka操作命令.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
@@ -562,7 +563,8 @@
       <workItem from="1684120052250" duration="2889000" />
       <workItem from="1684138909383" duration="101000" />
       <workItem from="1684139020477" duration="75000" />
-      <workItem from="1684142111074" duration="1489000" />
+      <workItem from="1684142111074" duration="2022000" />
+      <workItem from="1684223107070" duration="3635000" />
     </task>
     <servers />
   </component>
