@@ -6,9 +6,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Cart {
-
     private Map<String, CartItem> map = new LinkedHashMap<String, CartItem>();
-
+    Collection<CartItem> cartItems;
+    private double total;
     /**
      * 计算合计
      * @return
@@ -21,6 +21,10 @@ public class Cart {
             total = total.add(subtotal);
         }
         return total.doubleValue();
+    }
+
+    public Map<String, CartItem> getMap() {
+        return map;
     }
 
     /**

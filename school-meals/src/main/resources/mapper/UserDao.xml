@@ -92,6 +92,7 @@
         SELECT *
         FROM orders
         WHERE uid = ${uid}
+        ORDER BY ordertime
     </select>
 
     <update id="pay">

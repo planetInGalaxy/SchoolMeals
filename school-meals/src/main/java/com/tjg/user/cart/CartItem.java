@@ -8,6 +8,7 @@ public class CartItem {
 
     private Food food;
     private int count;
+    private double subtotal;
 
     public double getSubtotal(){
         BigDecimal d1 = new BigDecimal(food.getPrice() + "");

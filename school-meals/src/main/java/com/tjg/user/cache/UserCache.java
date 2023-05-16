@@ -22,4 +22,8 @@ public class UserCache {
     public int checkInventory(long fid) {
         return Integer.parseInt(jedis.get(String.valueOf(fid)));
     }
+
+    public long decrInventory(long fid, int count) {
+        return jedis.decrBy(String.valueOf(fid), count);
+    }
 }

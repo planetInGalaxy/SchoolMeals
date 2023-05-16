@@ -23,7 +23,9 @@
     <schema id="16" parent="1" name="8"/>
     <schema id="17" parent="1" name="9"/>
     <collection id="18" parent="2" name="1"/>
-    <collection id="19" parent="2" name="s1"/>
-    <collection id="20" parent="2" name="s2"/>
+    <collection id="19" parent="2" name="2"/>
+    <collection id="20" parent="2" name="3"/>
+    <collection id="21" parent="2" name="4"/>
+    <collection id="22" parent="2" name="5"/>
   </database-model>
 </dataSource>

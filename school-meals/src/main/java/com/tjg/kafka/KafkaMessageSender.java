@@ -9,7 +9,8 @@ import org.springframework.stereotype.Component;
 public class KafkaMessageSender {
     @Autowired
     private KafkaProducer kafkaProducer;
-    public boolean sendMessage(ProducerRecord<String, String> record){
+    public boolean sendMessage(String msg){
+        ProducerRecord<String, String> record = new ProducerRecord<>("takeout", msg);
         kafkaProducer.send(record);
         return true;
     }

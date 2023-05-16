@@ -1,5 +1,9 @@
 package com.tjg.user.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tjg.kafka.KafkaMessage;
+import com.tjg.kafka.KafkaMessageDispatcher;
+import com.tjg.kafka.KafkaMessageSender;
 import com.tjg.user.cache.UserCache;
 import com.tjg.user.cart.Cart;
 import com.tjg.entity.*;
@@ -27,6 +31,10 @@ public class UserController {
     UserService userService;
     @Autowired
     UserCache userCache;
+    @Autowired
+    KafkaMessageSender kafkaMessageSender;
+    @Autowired
+    KafkaMessageDispatcher kafkaMessageDispatcher;
     /**
      * 用户登录
      * @param username
@@ -208,16 +216,36 @@ public class UserController {
         //session获取购物车
         Cart cart = (Cart)request.getSession().getAttribute("cart");
 
-//        //循环遍历cart，查缓存中的库存量
-//        for(CartItem cartItem : cart.getCartItems()){
-//            userCache.checkInventory(cartItem.getFood().getFid());
-//        }
+        //循环遍历cart，查缓存中的库存量
+        for(CartItem cartItem : cart.getCartItems()){
+            if (userCache.checkInventory(cartItem.getFood().getFid()) < cartItem.getCount())
+            {
+                return "user/orderFail";
+            }
+        }
 
-        addOrder2(cart, (User)request.getSession().getAttribute("user"), phone, address);
+        KafkaMessage kafkaMessage = new KafkaMessage(cart, (User)request.getSession().getAttribute("user"), phone, address);
+        ObjectMapper objectMapper = new ObjectMapper();
+        String msg = objectMapper.writeValueAsString(kafkaMessage);
+        kafkaMessageSender.sendMessage(msg);
+//        addOrder2(cart, (User)request.getSession().getAttribute("user"), phone, address);
         return "user/submitOrder";
     }
 
-    boolean addOrder2(Cart cart, User user, String phone, String address){
+    public boolean addOrder2(Cart cart, User user, String phone, String address){
+        System.out.println("addOrder2\n");
+        //循环遍历cart，查缓存中的库存量
+        for(CartItem cartItem : cart.getCartItems()){
+            long fid = cartItem.getFood().getFid();
+            int count = cartItem.getCount();
+            if (userCache.checkInventory(fid) < count)
+            {
+                return false;
+            }
+            // 减去库存
+            userCache.decrInventory(fid,count);
+        }
+
         //创建订单对象并设置属性
         Orders order = new Orders();
         //随机创建5位数字串

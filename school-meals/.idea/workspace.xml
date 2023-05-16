@@ -10,14 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/user/submitOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/user/orderFail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/kafka/KafkaMessageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/cart/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/cart/CartItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/payFail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/user/payFail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/user/paySuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,8 +141,8 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -428,7 +431,7 @@
         </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="未命名_school-meals" />
+        <option name="BASE_DIRECTORY_NAME" value="29bd0f1d-fb2c-4469-90be-f2db3a573a5f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -563,7 +566,7 @@
       <workItem from="1684138909383" duration="101000" />
       <workItem from="1684139020477" duration="75000" />
       <workItem from="1684142111074" duration="2022000" />
-      <workItem from="1684223107070" duration="9042000" />
+      <workItem from="1684223107070" duration="17596000" />
     </task>
     <servers />
   </component>
