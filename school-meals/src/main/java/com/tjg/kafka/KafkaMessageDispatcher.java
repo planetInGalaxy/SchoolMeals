@@ -1,6 +1,5 @@
 package com.tjg.kafka;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tjg.user.controller.UserController;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
-import java.io.DataInput;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Collections;
@@ -41,19 +39,20 @@ public class KafkaMessageDispatcher {
         records.forEach(r -> {
 //            log.info("handler record:topic[{}],offset[{}],partition[{}],key[{}],val[{}]",
 //                    r.topic(), r.offset(), r.partition(), r.key(), r.value());
+            System.out.println("received");
             System.out.println(r.topic());
             System.out.println(r.offset());
             System.out.println(r.partition());
             System.out.println(r.key());
             System.out.println(r.value());
             System.out.println("----------------");
-
             try {
                 System.out.println("prasing...");
                 ObjectMapper objectMapper = new ObjectMapper();
                 KafkaMessage kafkaMessage = objectMapper.readValue(r.value().toString(), KafkaMessage.class);
                 System.out.println("prased.");
                 userController.addOrder2(kafkaMessage.getCart(), kafkaMessage.getUser(), kafkaMessage.getPhone(), kafkaMessage.getAddress());
+                System.out.println("consumed");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

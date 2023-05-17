@@ -5,3 +5,6 @@
 - .\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic takeout
 - .\kafka-console-producer.bat --broker-list localhost:9092 --topic takeout
 - .\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic takeout --from-beginning
+- .\kafka-consumer-groups.bat --bootstrap-server localhost:9092 --describe --group test-group
+- .\kafka-consumer-groups.bat --bootstrap-server localhost:9092 --group test-group --reset-offsets --all-topics --to-latest --execute
+- 

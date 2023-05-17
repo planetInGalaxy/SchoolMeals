@@ -12,6 +12,7 @@ public class KafkaMessageSender {
     public boolean sendMessage(String msg){
         ProducerRecord<String, String> record = new ProducerRecord<>("takeout", msg);
         kafkaProducer.send(record);
+        System.out.println("sent");
         return true;
     }
 }
