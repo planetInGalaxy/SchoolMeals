@@ -237,7 +237,7 @@ public class UserController {
 
         }
         //清空购物车
-        cart.clear();
+//        cart.clear();
 
         return "redirect:/user/pay";
     }
