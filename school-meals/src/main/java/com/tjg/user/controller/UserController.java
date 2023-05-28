@@ -248,8 +248,8 @@ public class UserController {
 
         //创建订单对象并设置属性
         Orders order = new Orders();
-        //随机创建5位数字串
-        order.setOid(Long.parseLong(Uuid.randomNum1(5)));
+        //随机创建10位数字串
+        order.setOid(Long.parseLong(Uuid.randomNum1(10)));
         Timestamp d = new Timestamp(System.currentTimeMillis());
         order.setOrdertime(d);
         order.setState(1);//收货状态   1：未付款 2：未收货 3：已收货
