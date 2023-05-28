@@ -11,12 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="707eb0ca-b829-462f-aa9e-73ddc0a24c7a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ddfabc2-0e43-42b6-a943-e7e1eb6fe534.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3f96481-88a4-410f-8922-f989867d7c8f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a3f96481-88a4-410f-8922-f989867d7c8f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/cache/UserCache.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tjg/user/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -349,10 +347,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2884882&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;4d8192d8fa09c7f3d4b6d459a421c6fb&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -560,6 +558,7 @@
       <workItem from="1684314144347" duration="602000" />
       <workItem from="1684379162619" duration="3493000" />
       <workItem from="1684465184375" duration="3009000" />
+      <workItem from="1685260621438" duration="428000" />
     </task>
     <servers />
   </component>
